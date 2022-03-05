@@ -1,0 +1,35 @@
+void main() { 
+  
+  var name = 'Mohsin Shahid';
+  print ('Name = $name');
+  
+  var uni ='Iqra University';
+  print ('University name = $uni');
+  
+  int physics = 90;
+  print('Physics = $physics');
+  double maths = 76.5;
+  print('Maths = $maths');
+  int english = 80;
+  print ('English = $english'); 
+  int urdu = 66;
+  print('Urdu = $urdu');
+  int pst = 80;
+  print('Science = $pst');
+  
+  var totalmarks = (physics + maths + english + urdu + pst);
+  print ('Totalmarks = $totalmarks');
+  
+  var percentage = (totalmarks/500 * 100);
+  print ('percentage = $percentage');
+  
+  if (percentage>=80) {
+     print('A Grade');} 
+  else if (percentage>=75) {
+     print('B Grade');}
+  else if (percentage>=70) {
+     print('C Grade');}
+  else if (percentage>=65) {
+     print('D Grade');} 
+  else  {print('F Grade');} 
+}
